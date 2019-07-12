@@ -1,0 +1,84 @@
+.main_top{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main_top .city{
+    font-size:16px;
+    color:#fff;
+}
+.main_top .middle{
+    width: 70%;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 50px;
+    color:#ccc;
+    display: flex;
+    align-items: center;
+}
+.main_top img{
+    width: 30px;
+    height: 30px;
+}
+
+.main .am-grid.am-grid-square .am-grid-item .am-grid-item-inner-content .am-grid-icon {
+    width: 50%!important;
+}
+
+.cyclope{
+    background-color: #fff;
+    padding:2px 10px;
+}
+.cyclope h2{
+    margin:10px 0 0 0;
+}
+.cyclope h2 label{
+    font-size:14px;
+    font-weight:normal;
+    margin-left:10px;
+    color:#858585;
+}
+.guessWhatYouLike{
+    height: 400px;
+    background-color:#fff;
+    padding:10px;
+}
+.guessWhatYouLike .title{
+    font-size:16px;
+    margin:0;
+}
+.guessWhatYouLike img{
+    width: 80px;
+    height: 80px;
+}
+.guessWhatYouLike ul{
+    padding:0;
+}
+.guessWhatYouLike  li{
+    display: flex;
+    margin-top:10px;
+}
+.guessWhatYouLike li .center{
+    padding:0 10px;
+    flex-grow: 1;
+}
+.guessWhatYouLike li .center h2,p{
+    margin:0;
+}
+.guessWhatYouLike li .center p{
+    margin:6px 0;
+    color:#8A8A8A;
+}
+.guessWhatYouLike li .center label{
+    color:#8A8A8A;
+}
+.guessWhatYouLike li .right{
+    width: 100px;
+    font-size:16px;
+    color:red;
+    font-weight:bold;
+    padding-top:14px;
+}

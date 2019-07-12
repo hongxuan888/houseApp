@@ -1,0 +1,41 @@
+
+/* .selectCity .hotCity{
+    padding-left:10px
+} */
+.selectCity .hotCity .list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.selectCity .hotCity .list div{
+    width: 25%;
+    font-size:16px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    height: 30px;
+    margin:6px 14px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+h3{
+    background-color: #ccc;
+    padding:4px;
+}
+.elseCity > div p{
+    font-size:16px;
+    background-color: #ccc;
+    padding:4px;
+}
+.cityname div{
+    padding:6px;
+}
+.searchBox{
+    font-size:16px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top:144px;
+    right:0
+    
+}

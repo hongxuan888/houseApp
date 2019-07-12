@@ -1,0 +1,43 @@
+
+
+.guessWhatYouLike{
+    /* height: 400px; */
+    /* background-color:#fff; */
+    padding:10px;
+}
+.guessWhatYouLike .title{
+    font-size:16px;
+    margin:0;
+}
+.guessWhatYouLike img{
+    width: 80px;
+    height: 80px;
+}
+.guessWhatYouLike ul{
+    padding:0;
+}
+.guessWhatYouLike  li{
+    display: flex;
+    margin-top:10px;
+}
+.guessWhatYouLike li .center{
+    padding:0 10px;
+    flex-grow: 1;
+}
+.guessWhatYouLike li .center h2,p{
+    margin:0;
+}
+.guessWhatYouLike li .center p{
+    margin:6px 0;
+    color:#8A8A8A;
+}
+.guessWhatYouLike li .center label{
+    color:#8A8A8A;
+}
+.guessWhatYouLike li .right{
+    width: 100px;
+    font-size:16px;
+    color:red;
+    font-weight:bold;
+    padding-top:14px;
+}

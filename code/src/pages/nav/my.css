@@ -1,0 +1,59 @@
+.my{
+    height:100%;
+}
+.my .my_top{
+    height:30%;
+    background-color: red;
+    padding:20px;
+}
+.my .my_top .top{
+    display: flex;
+    /* margin-bottom:10px; */
+}
+.my .my_top .top h2{
+    margin: 4px 0 6px 0;
+}
+.my .my_top .top label{
+    margin:6px 0;
+}
+.my .my_top .top .img_left{
+    width: 80px;
+    height: 80px;
+    margin-right:20px;
+}
+.my .my_top .top .img_right{
+    width: 30px;
+    height: 30px;
+    margin-right:10px;
+}
+.my .my_top .top .middle{
+    flex-grow: 1;
+    color:#fff;
+}
+.my .my_top .bottom{
+    display: flex;
+    height: 50%;
+    /* margin-bottom:10px; */
+}
+.my .my_top .bottom>div{
+    width: 33.3%;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.my .my_top .bottom>div:not(:last-child){
+    border-right:1px solid #ccc;
+}
+.my .my_top .bottom .bottom_div{
+    margin:10px 0;
+    font-size:18px;
+    display: flex;
+    align-items: center;
+}
+.my .my_top .bottom .bottom_div img{
+    width: 30px;
+    height: 30px;
+    margin-right:6px
+}
